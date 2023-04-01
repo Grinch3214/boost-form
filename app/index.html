@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" sizes="48x48" href="images/favicon/favicon-3.png" type="image/png">
+	<link rel="icon" sizes="32x32" href="images/favicon/favicon-2.png" type="image/png">
+	<link rel="icon" sizes="16x16" href="images/favicon/favicon-1.png" type="image/png">
+	<title>Boosteroid</title>
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+	<img class="circle" src="images/anim.svg" alt="background image">
+
+	<div class="wrapper">
+		<header class="header">
+			<a href="https://boosteroid.com/" class="header__link" target="_blank">
+				<img src="images/logo.svg" alt="Boosteroid" class="header__logo">
+			</a>
+		</header>
+		<main>
+			<section class="gamers">
+				<h2 class="gamers__title">Hey there gamers!</h2>
+				<p class="gamers__subtitle">Are you ready to level up your gaming collection?</p>
+
+
+				<form method="POST" action="https://formspree.io/f/xdovwgnp" class="gamers__form" target="_blank">
+
+					<p class="gamers__popup"></p>
+					<div class="gamers__request">
+						<svg>
+							<use href="images/check.svg#greenCheck"></use>
+						</svg>
+						<p class="gamers__request-title">Request sent!</p>
+						<!-- <p class="gamers__request-txt">Thank you for applying to become our partner! We will get back to you in 1-2 business days to discuss details!</p> -->
+					</div>
+
+					<p class="gamers__form-title">Fill in the form and check the winner on Friday on our <a target="_blank" href="https://discord.gg/boosteroid">Discord</a></p>
+					<div class="gamers__form-container">
+
+						<div class="gamers__form-email">
+							<input type="email" required placeholder="Your Email *" name="email">
+						</div>
+						
+						<div class="gamers__form-checkgroup">
+							<input name="agree" type="checkbox" class="gamers__form-checked" id="agree" required>
+							<label for="agree" class="gamers__form-for-checked">By clicking the button Send you agree to our <a target="_blank" href="https://boosteroid.com/privacy">Privacy Policy</a> & <a target="_blank" href="https://boosteroid.com/terms">Terms and Conditions</a></label>
+						</div>
+						
+						<button class="gamers__form-submit">SEND</button>
+					</div>
+
+				</form>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<a class="footer__link" href="mailto:support@boosteroid.com">support@boosteroid.com</a>
+			<p class="footer__reserved">Boosteroid 2023. All right reserved</p>
+		</footer>
+	</div>
+
+	
+	<script src="js/main.min.js"></script>
+</body>
+</html>

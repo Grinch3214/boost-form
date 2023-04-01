@@ -1,0 +1,38 @@
+// !VARS
+
+$primary-color: #120B32;
+$accent-color: #00A3FF;
+$grey-color: #9B99AD;
+$white-color: #fff;
+
+
+// !GLOBAL
+
+body {
+	font-size: 1rem;
+	font-family: 'Roboto';
+	font-weight: 400;
+	background: $primary-color;
+	color: $white-color;
+}
+
+.circle {
+	position: fixed;
+	z-index: -1;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	animation: pulsation 4s ease-out infinite;
+}
+
+@keyframes pulsation {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.2);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
