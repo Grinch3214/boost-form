@@ -200,6 +200,11 @@
 		font-weight: 900;
 		font-size: 24px;
 		cursor: pointer;
+		&:disabled {
+			opacity: .5;
+			cursor: default;
+		}
+
 		@media (max-width: 830px) {
 			font-size: 20px;
 			height: 55px;
